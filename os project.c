@@ -21,7 +21,7 @@ int main ()
     int q1 = 0, q2 = 0;	
     for (i = 0; i < a; i++) 
 	{
-            printf("\n\nEntre Process ID         : ");
+            printf("\n\nEntre Process ID        : ");
             scanf("%d", & p1[q1].pid);
             printf("Entre Arrival Time of %d    : ",p1[q1].pid);
             scanf("%d", & p1[q1].at);
